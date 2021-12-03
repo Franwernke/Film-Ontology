@@ -290,42 +290,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
-        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulp Fiction</filmes:temTitulo>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
-        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Django</filmes:temTitulo>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme3 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
-        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bastardos Inglórios</filmes:temTitulo>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
-        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kill BIll vol 1</filmes:temTitulo>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Francisco_Wernke -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Francisco_Wernke">
@@ -340,6 +304,1636 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Personagem1">
         <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Personagem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#a_good_woman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#a_good_woman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Good Woman</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#a_love_song_for_bobby_long -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#a_love_song_for_bobby_long">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Love Song for Bobby Long</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#alex_de_la_iglesia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#alex_de_la_iglesia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_oxford_murders"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iglesia</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alex</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#alexander_payne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#alexander_payne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Payne</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexander</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#alfonso_cuar_n -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#alfonso_cuar_n">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alfonso</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#american_beauty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#american_beauty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Beauty</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#an_american_rhapsody -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#an_american_rhapsody">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An American Rhapsody</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#anna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#anna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anna</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#anne_marie_mi_ville -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#anne_marie_mi_ville">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ville</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anne</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#arne_glimcher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#arne_glimcher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#just_cause"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glimcher</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arne</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#barton_fink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#barton_fink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barton Fink</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blade_runner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blade_runner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blade Runner</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blood_simple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blood_simple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood Simple</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#brian_de_palma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#brian_de_palma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#mission_impossible"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_black_dahlia"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palma</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#brian_robbins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#brian_robbins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_perfect_score"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robbins</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#bryan_singer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#bryan_singer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_usual_suspects"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singer</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bryan</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#chris_hegedus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#chris_hegedus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#down_from_the_mountain"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hegedus</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#christoffer_boe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#christoffer_boe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boe</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christoffer</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#cq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#cq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CQ</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#crash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#crash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crash</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#crimewave -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#crimewave">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crimewave</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#cristopher_nolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#cristopher_nolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#interstellar"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nolan</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cristopher</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#d_a_pennebaker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#d_a_pennebaker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#down_from_the_mountain"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pennebaker</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#daniela_thomas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#daniela_thomas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thomas</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniela</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#denzel_washington -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#denzel_washington">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_great_debaters"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denzel</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#down_from_the_mountain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#down_from_the_mountain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Down from the Mountain</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eight_legged_freaks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eight_legged_freaks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eight Legged Freaks</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eleanor_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eleanor_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#hearts_of_darkness_a_filmmaker_s_apocalypse"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coppola</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eleanor</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ellory_elkayem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ellory_elkayem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eight_legged_freaks"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elkayem</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellory</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eric_schaeffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#eric_schaeffer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fall"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#if_lucy_fell"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schaeffer</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eric</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#erik_fleming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#erik_fleming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#my_brother_the_pig"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fleming</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erik</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ethan_coen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ethan_coen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#barton_fink"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blood_simple"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fargo"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#intolerable_cruelty"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#miller_s_crossing"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#o_brother_where_art_thou"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#raising_arizona"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_hudsucker_proxy"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_ladykillers"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_man_who_wasn_t_there"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coen</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethan</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ettore_scola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ettore_scola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scola</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ettore</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fargo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fargo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fargo</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fax_bahr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fax_bahr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#hearts_of_darkness_a_filmmaker_s_apocalypse"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bahr</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fax</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fr_d_ric_auburtin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fr_d_ric_auburtin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auburtin</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fr</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#francis_ford_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#francis_ford_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#peggy_sue_got_married"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#rumble_fish"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_cotton_club"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather_part_ii"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather_part_iii"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_outsiders"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coppola</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francis</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#frankenweenie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#frankenweenie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frankenweenie</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#g_rard_depardieu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#g_rard_depardieu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depardieu</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#george_hickenlooper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#george_hickenlooper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#hearts_of_darkness_a_filmmaker_s_apocalypse"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hickenlooper</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#george_lucas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#george_lucas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#star_wars_episode_i__the_phantom_menace"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucas</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ghost_world -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ghost_world">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghost World</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ghostbusters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ghostbusters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghostbusters</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#girl_with_a_pearl_earring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#girl_with_a_pearl_earring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girl with a Pearl Earring</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#groundhog_day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#groundhog_day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundhog Day</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#gus_van_sant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#gus_van_sant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sant</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gus</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#harold_ramis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#harold_ramis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#groundhog_day"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramis</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harold</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#hearts_of_darkness_a_filmmaker_s_apocalypse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#hearts_of_darkness_a_filmmaker_s_apocalypse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hearts of Darkness: A Filmmaker&apos;s Apocalypse</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#her -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#her">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Her</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#home_alone_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#home_alone_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Alone 3</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#if_lucy_fell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#if_lucy_fell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If Lucy Fell</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#in_good_company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#in_good_company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Good Company</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#inside_monkey_zetterland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#inside_monkey_zetterland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inside Monkey Zetterland</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#interstellar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#interstellar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstellar</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#intolerable_cruelty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#intolerable_cruelty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intolerable Cruelty</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#isabel_coixet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#isabel_coixet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coixet</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isabel</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ivan_reitman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ivan_reitman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ghostbusters"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reitman</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ivan</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#james_l_brooks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#james_l_brooks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spanglish"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brooks</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#james_marsh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#james_marsh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_theory_of_everything"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsh</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#jean_luc_godard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#jean_luc_godard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Godard</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jean</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#jefery_levy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#jefery_levy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#inside_monkey_zetterland"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levy</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jefery</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#joe_wright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#joe_wright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#pride__prejudice"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wright</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joe</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#joel_coen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#joel_coen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#barton_fink"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blood_simple"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#fargo"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#intolerable_cruelty"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#miller_s_crossing"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#no_country_for_old_men"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#o_brother_where_art_thou"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#raising_arizona"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_big_lebowski"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_hudsucker_proxy"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_ladykillers"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_man_who_wasn_t_there"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coen</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joel</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#john_landis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#john_landis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spies_like_us"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Landis</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#just_cause -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#just_cause">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Just Cause</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lance_bangs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lance_bangs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_rises"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bangs</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lance</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lick_the_star -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lick_the_star">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lick the Star</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lisa_krueger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lisa_krueger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#manny__lo"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krueger</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lisa</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lost_in_translation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lost_in_translation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lost in Translation</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#manny__lo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#manny__lo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manny &amp; Lo</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#marie_antoinette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#marie_antoinette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marie Antoinette</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#match_point -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#match_point">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Match Point</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#michael_bay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#michael_bay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_island"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bay</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#mike_barker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#mike_barker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#a_good_woman"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barker</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mike</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#miller_s_crossing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#miller_s_crossing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller&apos;s Crossing</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#mission_impossible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#mission_impossible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mission: Impossible</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#morten_tyldum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#morten_tyldum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_imitation_game"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tyldum</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morten</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#my_brother_the_pig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#my_brother_the_pig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My Brother the Pig</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#nick_doob -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#nick_doob">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#down_from_the_mountain"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doob</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nick</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#no_country_for_old_men -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#no_country_for_old_men">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No Country for Old Men</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#nobuhiro_suwa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#nobuhiro_suwa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suwa</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nobuhiro</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#north -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#north">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#o_brother_where_art_thou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#o_brother_where_art_thou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O Brother, Where Art Thou?</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#oliver_schmitz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#oliver_schmitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schmitz</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oliver</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#olivier_assayas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#olivier_assayas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assayas</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olivier</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris, je t&apos;aime</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paul_haggis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paul_haggis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#crash"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haggis</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paul_weitz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paul_weitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#in_good_company"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weitz</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#peggy_sue_got_married -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#peggy_sue_got_married">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peggy Sue Got Married</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#peter_webber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#peter_webber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#girl_with_a_pearl_earring"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Webber</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#pride__prejudice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#pride__prejudice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pride &amp; Prejudice</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#raising_arizona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#raising_arizona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raising Arizona</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#raja_gosnell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#raja_gosnell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#home_alone_3"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gosnell</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raja</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#richard_lagravenese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#richard_lagravenese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lagravenese</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Richard</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ridley_scott -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ridley_scott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#blade_runner"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scott</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ridley</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#rob_reiner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#rob_reiner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#north"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reiner</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rob</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#robert_redford -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#robert_redford">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_horse_whisperer"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redford</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#roman_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#roman_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#cq"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coppola</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ron_howard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ron_howard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_da_vinci_code"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Howard</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ron</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#rumble_fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#rumble_fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rumble Fish</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sam_mendes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sam_mendes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#american_beauty"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mendes</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sam</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sam_raimi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sam_raimi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#crimewave"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raimi</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sam</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#scoop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#scoop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scoop</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#shainee_gabel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#shainee_gabel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#a_love_song_for_bobby_long"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabel</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shainee</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sofia_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sofia_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lick_the_star"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#lost_in_translation"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#marie_antoinette"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_virgin_suicides"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coppola</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spanglish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spanglish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanglish</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spies_like_us -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spies_like_us">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spies Like Us</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spike_jonze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#spike_jonze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#her"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_rises"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jonze</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#star_wars_episode_i__the_phantom_menace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#star_wars_episode_i__the_phantom_menace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star Wars: Episode I - The Phantom Menace</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#stephen_hillenburg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#stephen_hillenburg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_spongebob_squarepants_movie"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hillenburg</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephen</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sydney_pollack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sydney_pollack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_firm"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pollack</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sydney</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sylvain_chomet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#sylvain_chomet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chomet</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sylvain</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#terry_zwigoff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#terry_zwigoff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#ghost_world"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zwigoff</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terry</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_big_lebowski -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_big_lebowski">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Big Lebowski</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_black_dahlia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_black_dahlia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Black Dahlia</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_cotton_club -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_cotton_club">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cotton Club</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_da_vinci_code -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_da_vinci_code">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Da Vinci Code</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_firm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_firm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Firm</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather_part_ii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather_part_ii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather: Part II</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather_part_iii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_godfather_part_iii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather: Part III</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_great_debaters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_great_debaters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Great Debaters</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_horse_whisperer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_horse_whisperer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Horse Whisperer</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_hudsucker_proxy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_hudsucker_proxy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hudsucker Proxy</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_imitation_game -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_imitation_game">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Imitation Game</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_island -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_island">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Island</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_ladykillers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_ladykillers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ladykillers</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_man_who_wasn_t_there -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_man_who_wasn_t_there">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Man Who Wasn&apos;t There</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_outsiders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_outsiders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Outsiders</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_oxford_murders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_oxford_murders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Oxford Murders</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_perfect_score -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_perfect_score">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Perfect Score</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_spongebob_squarepants_movie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_spongebob_squarepants_movie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SpongeBob SquarePants Movie</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_theory_of_everything -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_theory_of_everything">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Theory of Everything</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_usual_suspects -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_usual_suspects">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Usual Suspects</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_virgin_suicides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#the_virgin_suicides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Virgin Suicides</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#tim_burton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#tim_burton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#frankenweenie"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burton</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tim</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#tom_tykwer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#tom_tykwer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tykwer</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tom</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_community_dance_group -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_community_dance_group">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_rises"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torrance</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_rises -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#torrance_rises">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Filme"/>
+        <filmes:temAnoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</filmes:temAnoDeLancamento>
+        <filmes:temDuracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</filmes:temDuracao>
+        <filmes:temTitulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torrance Rises</filmes:temTitulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#va_g_rdos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#va_g_rdos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#an_american_rhapsody"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rdos</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Va</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#vincenzo_natali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#vincenzo_natali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natali</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vincenzo</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#walter_salles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#walter_salles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#paris_je_t_aime"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salles</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walter</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#woody_allen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#woody_allen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#match_point"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#scoop"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allen</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Woody</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cora/ontologies/2021/10/filmes#yurek_bogayevicz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#yurek_bogayevicz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#Diretor"/>
+        <filmes:dirigeEm rdf:resource="http://www.semanticweb.org/cora/ontologies/2021/10/filmes#anna"/>
+        <foaf:familyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bogayevicz</foaf:familyName>
+        <foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yurek</foaf:firstName>
     </owl:NamedIndividual>
 </rdf:RDF>
 
