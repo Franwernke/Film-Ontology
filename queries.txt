@@ -49,3 +49,11 @@ SELECT DISTINCT ?filme ?Duracao
       { ep1:john_goodman ep1:atuaEm ?filme. }
       ?filme ep1:temDuracao ?Duracao.
   } ORDER BY DESC(?Duracao)
+
+## Consulta 5 ##
+
+SELECT DISTINCT ?Pessoa
+  WHERE {
+      ?Pessoa ep1:atuaEm ?a.
+      ?Pessoa ep1:dirigeEm ?b.
+  }
