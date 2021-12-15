@@ -80,3 +80,17 @@ SELECT ?atriz ?ator ?filme ?duracao
     ?filme ep1:temDuracao ?duracao.
     FILTER (121 <= ?duracao && ?duracao <= 121)
   }
+
+## Consulta 8 ##
+
+SELECT ?diretor
+  WHERE {
+    ?ator foaf:firstName "Scarlett"^^xsd:string.
+    ?ator foaf:familyName "Johansson"^^xsd:string.
+    ?ator ep1:atuaEm ?filme.
+    ?diretor ep1:dirigeEm ?filme.
+   
+  }
+  GROUP BY ?diretor
+  ORDER BY DESC(COUNT(?diretor))
+  LIMIT 1
