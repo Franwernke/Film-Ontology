@@ -54,6 +54,17 @@ SELECT DISTINCT ?filme ?Duracao
 
 SELECT DISTINCT ?Pessoa
   WHERE {
-      ?Pessoa ep1:atuaEm ?a.
-      ?Pessoa ep1:dirigeEm ?b.
+    ?Pessoa ep1:atuaEm ?a.
+    ?Pessoa ep1:dirigeEm ?b.
   }
+
+## Consulta 6 ##
+
+SELECT ?diretor ?filme ?ano
+  WHERE {
+    ?diretor ep1:dirigeEm ?filme.
+    ?filme ep1:temAnoDeLancamento ?ano.
+    ep1:scarlett_johansson ep1:atuaEm ?filme.
+    ep1:joaquin_phoenix ep1:atuaEm ?filme.
+    FILTER (2013 <= ?ano && ?ano <= 2013)
+  } ORDER BY ASC(?ano)
