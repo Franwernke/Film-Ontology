@@ -37,3 +37,15 @@ SELECT ?filme ?diretor ?AnoDeLancamento
       ?diretor ep1:dirigeEm ?filme.
       ?filme ep1:temAnoDeLancamento ?AnoDeLancamento.
   } ORDER BY DESC(?AnoDeLancamento)
+
+## Consulta 4 ##
+
+SELECT DISTINCT ?filme ?Duracao
+  WHERE {
+      ?diretor ep1:dirigeEm ep1:barton_fink.
+      ?diretor ep1:dirigeEm ?filme.
+      { ep1:ted_raimi ep1:atuaEm ?filme. }
+        UNION
+      { ep1:john_goodman ep1:atuaEm ?filme. }
+      ?filme ep1:temDuracao ?Duracao.
+  } ORDER BY DESC(?Duracao)
