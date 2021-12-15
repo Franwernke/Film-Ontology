@@ -27,3 +27,13 @@ SELECT ?PrimeiroNome ?UltimoNome ?Personagem
     ?personagem ep1:ehPersonagemDe ?filme.
     ?personagem ep1:temNome ?Personagem.
   } ORDER BY ASC(?ator)
+
+## Consulta 3 ##
+
+SELECT ?filme ?diretor ?AnoDeLancamento
+  WHERE {
+      ep1:scarlett_johansson ep1:atuaEm ?filme.
+      ep1:joaquin_phoenix ep1:atuaEm ?filme.
+      ?diretor ep1:dirigeEm ?filme.
+      ?filme ep1:temAnoDeLancamento ?AnoDeLancamento.
+  } ORDER BY DESC(?AnoDeLancamento)
