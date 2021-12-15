@@ -19,11 +19,11 @@ SELECT ?filme ?titulo
 
 SELECT ?PrimeiroNome ?UltimoNome ?Personagem
   WHERE {
-	  ?filme ep1:temTitulo "Her".
+	  ?filme ep1:temTitulo "Anna".
     ?ator ep1:atuaEm ?filme.
     ?ator foaf:firstName ?PrimeiroNome.
     ?ator foaf:familyName ?UltimoNome.
     ?personagem ep1:ehInterpretadoPor ?ator.
     ?personagem ep1:ehPersonagemDe ?filme.
     ?personagem ep1:temNome ?Personagem.
-  } ORDER BY ASC(?PrimeiroNome)
+  } ORDER BY ASC(?ator)
