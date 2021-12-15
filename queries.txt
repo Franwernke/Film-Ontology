@@ -68,3 +68,15 @@ SELECT ?diretor ?filme ?ano
     ep1:joaquin_phoenix ep1:atuaEm ?filme.
     FILTER (2013 <= ?ano && ?ano <= 2013)
   } ORDER BY ASC(?ano)
+
+## Consulta 7 ##
+
+SELECT ?atriz ?ator ?filme ?duracao
+  WHERE {
+    ?atriz ep1:atuaEm ?filme.
+    ?ator ep1:atuaEm ?filme.
+    ?atriz foaf:gender "feminino"^^xsd:string.
+    ?ator foaf:gender "masculino"^^xsd:string.
+    ?filme ep1:temDuracao ?duracao.
+    FILTER (121 <= ?duracao && ?duracao <= 121)
+  }
