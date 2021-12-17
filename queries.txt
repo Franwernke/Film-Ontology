@@ -112,3 +112,19 @@ SELECT ?filme ?nomePersonagem ?anoDeLancamento
     }.
     FILTER(?anoDeLancamento = ?minimoAnoDeLancamento)
   } ORDER BY ASC(?anoDeLancamento)
+
+## Consulta 10 ##
+
+SELECT ?filme ?duracao
+  WHERE {
+    ep1:joel_coen ep1:dirigeEm ?filme.
+    ?filme ep1:temDuracao ?duracao.
+    {
+      SELECT (MAX(?duracao) AS ?maxDuracao)
+        WHERE {
+          ep1:joel_coen ep1:dirigeEm ?filme.
+          ?filme ep1:temDuracao ?duracao.
+        } GROUP BY (ep1:joel_coen)
+    }
+    FILTER(?duracao = ?maxDuracao)
+  } ORDER BY ASC(?anoDeLancamento)
