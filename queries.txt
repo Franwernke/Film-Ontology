@@ -20,111 +20,115 @@ SELECT ?filme ?titulo
 SELECT ?PrimeiroNome ?UltimoNome ?Personagem
   WHERE {
 	  ?filme ep1:temTitulo "Anna".
-    ?ator ep1:atuaEm ?filme.
-    ?ator foaf:firstName ?PrimeiroNome.
-    ?ator foaf:familyName ?UltimoNome.
-    ?personagem ep1:ehInterpretadoPor ?ator.
-    ?personagem ep1:ehPersonagemDe ?filme.
-    ?personagem ep1:temNome ?Personagem.
+    ?ator ep1:atuaEm ?filme; 
+          foaf:firstName ?PrimeiroNome; 
+          foaf:familyName ?UltimoNome.
+    ?personagem ep1:ehInterpretadoPor ?ator; 
+          ep1:ehPersonagemDe ?filme; 
+          ep1:temNome ?Personagem.
   } ORDER BY ASC(?ator)
 
 ## Consulta 3 ##
 
-SELECT ?filme ?diretor ?AnoDeLancamento
+SELECT ?Filme ?Diretor ?Ano
   WHERE {
-      ep1:scarlett_johansson ep1:atuaEm ?filme.
-      ep1:joaquin_phoenix ep1:atuaEm ?filme.
-      ?diretor ep1:dirigeEm ?filme.
-      ?filme ep1:temAnoDeLancamento ?AnoDeLancamento.
-  } ORDER BY DESC(?AnoDeLancamento)
+    ?Filme ep1:ehAtuadoPor ep1:scarlett_johansson;
+          ep1:ehAtuadoPor ep1:joaquin_phoenix; 
+          ep1:ehDirigidoPor ?Diretor; 
+          ep1:temAnoDeLancamento ?Ano.
+  } ORDER BY DESC(?Ano)
 
 ## Consulta 4 ##
 
-SELECT DISTINCT ?filme ?Duracao
+SELECT DISTINCT ?Filme ?Duracao
   WHERE {
-      ?diretor ep1:dirigeEm ep1:barton_fink.
-      ?diretor ep1:dirigeEm ?filme.
-      { ep1:ted_raimi ep1:atuaEm ?filme. }
+      ?diretor ep1:dirigeEm ep1:barton_fink;
+            ep1:dirigeEm ?Filme.
+      { ep1:ted_raimi ep1:atuaEm ?Filme. }
         UNION
-      { ep1:john_goodman ep1:atuaEm ?filme. }
-      ?filme ep1:temDuracao ?Duracao.
-  } ORDER BY DESC(?Duracao)
+      { ep1:john_goodman ep1:atuaEm ?Filme. }
+      ?Filme ep1:temDuracao ?Duracao.
+  } ORDER BY ASC(?Duracao)
 
 ## Consulta 5 ##
 
-SELECT DISTINCT ?Pessoa
+SELECT ?Pessoa ?FilmeAt ?FilmeDir
   WHERE {
-    ?Pessoa ep1:atuaEm ?a.
-    ?Pessoa ep1:dirigeEm ?b.
+    ?Pessoa ep1:atuaEm ?FilmeAt;
+          ep1:dirigeEm ?FilmeDir.
   }
 
 ## Consulta 6 ##
 
-SELECT ?diretor ?filme ?ano
+SELECT ?Ano ?Diretor ?Filme
   WHERE {
-    ?diretor ep1:dirigeEm ?filme.
-    ?filme ep1:temAnoDeLancamento ?ano.
-    ep1:scarlett_johansson ep1:atuaEm ?filme.
-    ep1:joaquin_phoenix ep1:atuaEm ?filme.
-    FILTER (2013 <= ?ano && ?ano <= 2013)
-  } ORDER BY ASC(?ano)
+    ?Filme ep1:temAnoDeLancamento ?Ano; 
+          ep1:ehDirigidoPor ?Diretor;
+          ep1:ehAtuadoPor ep1:scarlett_johansson;
+          ep1:ehAtuadoPor ep1:joaquin_phoenix.
+          
+    FILTER (0 <= ?Ano && ?Ano <= 3000)
+  } ORDER BY ASC(?Ano)
 
 ## Consulta 7 ##
 
-SELECT ?atriz ?ator ?filme ?duracao
+SELECT ?Atriz ?Ator ?Filme ?Duracao
   WHERE {
-    ?atriz ep1:atuaEm ?filme.
-    ?ator ep1:atuaEm ?filme.
-    ?atriz foaf:gender "feminino"^^xsd:string.
-    ?ator foaf:gender "masculino"^^xsd:string.
-    ?filme ep1:temDuracao ?duracao.
-    FILTER (121 <= ?duracao && ?duracao <= 121)
+    ?Atriz ep1:atuaEm ?Filme;
+          foaf:gender "feminino"^^xsd:string.
+    ?Ator ep1:atuaEm ?Filme;
+          foaf:gender "masculino"^^xsd:string.
+    
+    ?Filme ep1:temDuracao ?Duracao.
+    
+    FILTER (121 <= ?Duracao && ?Duracao <= 121)
   }
 
 ## Consulta 8 ##
 
-SELECT ?diretor
+SELECT ?Diretor
   WHERE {
-    ?ator foaf:firstName "Scarlett"^^xsd:string.
-    ?ator foaf:familyName "Johansson"^^xsd:string.
-    ?ator ep1:atuaEm ?filme.
-    ?diretor ep1:dirigeEm ?filme.
+    ?filme ep1:ehAtuadoPor ?ator;
+          ep1:ehDirigidoPor ?Diretor.
+    ?ator foaf:firstName "Scarlett"^^xsd:string;
+          foaf:familyName "Johansson"^^xsd:string.
   }
-  GROUP BY ?diretor
-  ORDER BY DESC(COUNT(?diretor))
+  GROUP BY ?Diretor
+  ORDER BY DESC(COUNT(?Diretor))
   LIMIT 1
 
 ## Consulta 9 ##
 
-SELECT ?filme ?nomePersonagem ?anoDeLancamento
+SELECT ?Filme ?Ano ?Personagem
   WHERE {
-    ep1:tim_blake_nelson ep1:atuaEm ?filme; ep1:interpretaEm ?personagem.
+    ep1:tim_blake_nelson ep1:interpretaEm ?personagemId.
     
-    ?personagem ep1:ehPersonagemDe ?filme; ep1:temNome ?nomePersonagem.
+    ?personagemId ep1:temNome ?Personagem.
     
-    ?filme ep1:temAnoDeLancamento ?anoDeLancamento.
+    ?Filme ep1:temAnoDeLancamento ?Ano;
+          ep1:temPersonagem ?personagemId.
     {
-      SELECT (MIN(?anoDeLancamento) AS ?minimoAnoDeLancamento)
+      SELECT (MIN(?Ano) AS ?minimoAnoDeLancamento)
         WHERE {
-          ep1:tim_blake_nelson ep1:atuaEm ?filme.
-          ?filme ep1:temAnoDeLancamento ?anoDeLancamento.
+          ep1:tim_blake_nelson ep1:atuaEm ?Filme.
+          ?Filme ep1:temAnoDeLancamento ?Ano.
       } GROUP BY (ep1:tim_blake_nelson)
-    }.
-    FILTER(?anoDeLancamento = ?minimoAnoDeLancamento)
-  } ORDER BY ASC(?anoDeLancamento)
+    }
+    FILTER(?Ano = ?minimoAnoDeLancamento)
+  }
 
 ## Consulta 10 ##
 
-SELECT ?filme ?duracao
+SELECT ?Filme ?Duracao
   WHERE {
-    ep1:joel_coen ep1:dirigeEm ?filme.
-    ?filme ep1:temDuracao ?duracao.
+    ?Filme ep1:ehDirigidoPor ep1:joel_coen;
+          ep1:temDuracao ?Duracao.
     {
-      SELECT (MAX(?duracao) AS ?maxDuracao)
+      SELECT (MAX(?Duracao) AS ?maxDuracao)
         WHERE {
-          ep1:joel_coen ep1:dirigeEm ?filme.
-          ?filme ep1:temDuracao ?duracao.
+          ?Filme ep1:ehDirigidoPor ep1:joel_coen;
+                ep1:temDuracao ?Duracao.
         } GROUP BY (ep1:joel_coen)
     }
-    FILTER(?duracao = ?maxDuracao)
-  } ORDER BY ASC(?anoDeLancamento)
+    FILTER(?Duracao = ?maxDuracao)
+  }
