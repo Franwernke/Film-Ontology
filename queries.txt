@@ -89,8 +89,26 @@ SELECT ?diretor
     ?ator foaf:familyName "Johansson"^^xsd:string.
     ?ator ep1:atuaEm ?filme.
     ?diretor ep1:dirigeEm ?filme.
-   
   }
   GROUP BY ?diretor
   ORDER BY DESC(COUNT(?diretor))
   LIMIT 1
+
+## Consulta 9 ##
+
+SELECT ?filme ?nomePersonagem ?anoDeLancamento
+  WHERE {
+    ep1:tim_blake_nelson ep1:atuaEm ?filme; ep1:interpretaEm ?personagem.
+    
+    ?personagem ep1:ehPersonagemDe ?filme; ep1:temNome ?nomePersonagem.
+    
+    ?filme ep1:temAnoDeLancamento ?anoDeLancamento.
+    {
+      SELECT (MIN(?anoDeLancamento) AS ?minimoAnoDeLancamento)
+        WHERE {
+          ep1:tim_blake_nelson ep1:atuaEm ?filme.
+          ?filme ep1:temAnoDeLancamento ?anoDeLancamento.
+      } GROUP BY (ep1:tim_blake_nelson)
+    }.
+    FILTER(?anoDeLancamento = ?minimoAnoDeLancamento)
+  } ORDER BY ASC(?anoDeLancamento)
