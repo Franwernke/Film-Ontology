@@ -65,9 +65,9 @@ SELECT ?Ano ?Diretor ?Filme
     ?Filme ep1:temAnoDeLancamento ?Ano; 
           ep1:ehDirigidoPor ?Diretor;
           ep1:ehAtuadoPor ep1:scarlett_johansson;
-          ep1:ehAtuadoPor ep1:joaquin_phoenix.
+          ep1:ehAtuadoPor ep1:colleen_camp.
           
-    FILTER (0 <= ?Ano && ?Ano <= 3000)
+    FILTER (2000 <= ?Ano && ?Ano <= 2003)
   } ORDER BY ASC(?Ano)
 
 ## Consulta 7 ##
